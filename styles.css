@@ -1,17 +1,14 @@
-:root {
-     --cor-de-fundo:#EBECEE;
+@import url("styles/header.css");
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #faf1f1;
+    --amarelo: #cba707; 
+    --roxo: #C75EEB; 
+    --fonte-principal:"Poppins";
+    --fonte-secundaria:"Josefins Sans";
 }
-body {       
-  background-color: var(--cor-de-fundo);
+
+body{
+    background-color: var(--cor-de-fundo);
 }
-
-h1 { 
-   background-color: white;
-}
-
-
-
-
-
-
-
